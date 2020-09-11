@@ -1,5 +1,5 @@
 /* since we want to use return and console.log in this case,
-I want to use return for the first two and console.log in 
+I want to use return for the first two and console.log in
 the next two. Last will need a conditional workflow management system*/
 //1) receives one argument and returns it in all caps1
 function shout (input) {
@@ -23,11 +23,11 @@ function logWhisper (input) {
 function sayHiToGrandma (input) {
   if (input === "I love you, Grandma.") {
     return "I love you, too."
-  } 
+  }
   else if (input === input.toUpperCase) {
     return "YES INDEED!"
-  } 
+  }
   else {
-  return "I can't hear you!"  
+  return "I can't hear you!"
   }
 }
